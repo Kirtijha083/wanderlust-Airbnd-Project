@@ -1,0 +1,34 @@
+<!-- for success -->
+<% if(success && success.length){ %>
+<!--only success ko compare krte to v vo khali wala box show hota hi qki success ek array hai or array hmesa exist krti h.......isly uske length se v comapre kiye.......ki length empty ho -->
+<div
+  class="alert alert-success alert-dismissible fade show col-6 offset-3"
+  role="alert"
+>
+  <%= success %>
+  <button
+    type="button"
+    class="btn-close"
+    data-bs-dismiss="alert"
+    aria-label="Close"
+  ></button>
+</div>
+<% } %>
+
+
+<!-- for error -->
+<% if(error && error.length){ %>
+    
+    <div
+      class="alert alert-danger alert-dismissible fade show col-6 offset-3"
+      role="alert"
+    >
+      <%= error %>
+      <button
+        type="button"
+        class="btn-close"
+        data-bs-dismiss="alert"
+        aria-label="Close"
+      ></button>
+    </div>
+    <% } %>
