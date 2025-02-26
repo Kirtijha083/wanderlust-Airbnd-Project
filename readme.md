@@ -1,8 +1,8 @@
-# Wanderlust - Full Stack Website (Airbnb-Inspired)
+# VoyageVista | Find Your Perfect Stay & Adventure
 
 # Overview
 
-Wanderlust is a web-based application inspired by Airbnb. It is our first full-stack project created for practice without using React, but utilizing other MERN stack technologies. This project is still under development, with many features yet to be added, including responsiveness, map integration, and improved backend functionalities.
+VoyageVista is a web-based application inspired by Airbnb. It is our first full-stack project created for practice without using React, but utilizing other MERN stack technologies. This project is still under development, with many features yet to be added, including responsiveness, map integration, and improved backend functionalities.
 
 # Technologies Used
 
