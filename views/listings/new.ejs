@@ -1,4 +1,16 @@
+<style>
+    @media (max-width: 766px) {
+    .row {
+      margin-left: -8rem;
+    }
+    .row-inner{
+        margin-left: -0.7rem;
+    }
+    }
+</style>
+
 <% layout("/layouts/boilerplate") %>
+
     <div class="row mt-3">
         <div class="col-8 offset-2">
             <!-- col-8 se pura page ko 8 part kr k...then offset se bich me kr dega(offset-2 yani left se space 2 hua ) -->
@@ -32,7 +44,7 @@
                     <input name="listing[image]" type="file" class="form-control" required/>
                 </div>
 
-                <div class="row">
+                <div class="row row-inner">
                     <div class="mb-3 col-md-4">
                         <label for="price" class="form-label">Price</label>
                         <input name="listing[price]" placeholder="1200" type="text" class="form-control" required/>
